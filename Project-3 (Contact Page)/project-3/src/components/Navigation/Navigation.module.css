@@ -6,7 +6,7 @@
   height: 72px;
 }
 
-.navigation {
+.navigation ul {
   display: flex;
   list-style-type: none;
   gap: 24px;
