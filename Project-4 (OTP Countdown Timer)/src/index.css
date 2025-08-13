@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Apply global font */
+* {
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Containers styles */
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(108deg, #e0e0f9 0%, #dadaff 100%);
+    padding: 16px;
+}
+
+/* Card styles */
+.card {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+    max-width: 350px;
+    width: 100%;
+}
+
+/* Header styles */
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #28152f;
+}
+
+/* Input field styles */
+input {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 6px;
+    border: 1.5px solid #dee1ea;
+    padding: 12px 20px;
+    transition: border-color 0.3s ease;
+}
+
+/* Input field focus styles */
+input:focus {
+    border-color: #506cff;
+    outline: none;
+}
+
+/* Countdown text styles */
+.countdown-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0px;
+}
+
+/* Countdown paragraph styles */
+.countdown-text > p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #2d1d35;
+}
+
+/* Countdown text button styles */
+.countdown-text > button {
+    background-color: #fff;
+    border: none;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Hover for resend OTP */
+.countdown-text > button:hover:enabled {
+    color: #6950ff;
+}
+
+/* Disabled state for resend OTP */
+.countdown-text > button:disabled {
+    cursor: not-allowed;
+    color: #DFE3E8;
+}
+
+/* Submit button styles */
+.submit-btn {
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    background: linear-gradient(91deg, #9076fc 0%, #6950ff 100%);
+    transition: all ease 0.6s;
+    cursor: pointer;
+}
+
+/* Submit hover button styles */
+.submit-btn:hover {
+    color: #6950ff;
+    background: #e6e0ffbf;
+}
