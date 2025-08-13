@@ -9,13 +9,3 @@ What's Here!
 5. Skills Covered – React component structure, props & state, event handling, conditional rendering, and styling.
 
 Goal – To practice and demonstrate core React concepts through small, practical projects.
-
-
-
-
-
-
-
-
-
-Ask ChatGPT
